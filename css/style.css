@@ -1,0 +1,81 @@
+/*html {
+  margin: 0;
+  padding: 0;
+}*/
+
+header {
+  margin: 0px;
+  padding: 0px;
+  background-color: #30225a;
+  font-family: lobster, serif;
+  font-weight: normal;
+  font-size: 1.8em;
+  color: #bbb0de;
+  text-align: center;
+  /*border: 1px solid;*/
+}
+header h1 {
+  margin: 0;
+  padding: 0.67em 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #b76f4a;
+  font-family: 'times new roman', times, sans-serif;
+}
+
+body h3 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+footer {
+  background-color: #abb448;
+  /*border: 1px solid red;*/
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  padding-left: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  list-style-type: none;
+  background-color: #abb448;
+  border-radius: 10px;
+}
+
+li {
+  font: helvetica, sans-serif;
+  font-weight: bolder;
+  padding-left: 10px;
+  margin-left: 10px;
+  font-size: 1.5em;
+}
+
+h2 {
+    font-size: 2.2em;
+}
+
+h3:first-line {
+  font-size: 1.4em;
+  text-decoration: underline;
+}
+
+p {
+  font: helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 1.2em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+body:after {
+  content:'\00a9 Stephen Schroeder';
+  padding-left: 10px;
+  /*background-color: #abb448;*/
+}
