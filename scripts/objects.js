@@ -19,9 +19,6 @@ var pike = {
       var oneHour = this.hourlySales();
       this.hourly.push(oneHour);
       this.total += oneHour;
-      // console.log(oneHour);
-      // console.log(this.hourly);
-      // console.log(this.total);
     }
   },
   passData: function() {
