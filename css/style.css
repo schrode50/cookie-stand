@@ -39,6 +39,19 @@ input {
   background-color: #abb448;
   width: 100px;
 }
+p {
+  font: helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 1.2em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+body:after {
+  content:'\00a9 Stephen Schroeder';
+  padding-left: 10px;
+  /*background-color: #abb448;*/
+}
 
 /*primary table styling*/
 #tbl {
@@ -82,17 +95,3 @@ h3:first-line {
   font-size: 1.4em;
   text-decoration: underline;
 }*/
-
-p {
-  font: helvetica, sans-serif;
-  font-weight: 200;
-  font-size: 1.2em;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-body:after {
-  content:'\00a9 Stephen Schroeder';
-  padding-left: 10px;
-  /*background-color: #abb448;*/
-}

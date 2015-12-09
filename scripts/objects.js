@@ -86,7 +86,7 @@ var newStand = function(event) {
   if(!event.target.location.value || !event.target.min.value || !event.target.max.value || !event.target.avg.value){
     return alert("You must fill in all the fields!");
   }
-///stack overflow rocks////////////////////////////////
+///stack overflow rocks////ties enter key to submit////////
 function searchKeyPress(e) {
   e = e || window.event;
   if (e.keyCode == 13) {
