@@ -35,7 +35,28 @@ footer {
   background-color: #abb448;
   /*border: 1px solid red;*/
 }
+.first {
+  border: 1px solid black;
+  background-color: #abb448;
+}
+.second {
+  /*border: 1px solid black;*/
+  background-color: white;
 
+}
+/*.topRow {
+  font-weight: bold;
+}
+
+.row {
+  background-color: red;
+}*/
+
+/*table,th, td {
+  border: 1px solid black;
+  background-color: #abb448;
+  position: re
+}*/
 img {
   width: 100%;
 }
