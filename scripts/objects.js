@@ -50,6 +50,7 @@ var southCenter = new CookieStand("Southcenter Mall", 11, 38, 1.9);
 var bellevue = new CookieStand("Bellevue Square", 20, 48, 3.3);
 var alki = new CookieStand("Alki", 3, 24, 2.6);
 
+var createPlace = document.getElementById('tbl');
 var tbl = document.createElement('table');
 var headerRow = document.createElement('thead');
 
@@ -75,7 +76,7 @@ function displayAllLocations(){
 
 displayAllLocations();
 
-document.body.appendChild(tbl);
+createPlace.appendChild(tbl);
 
 //////creating new submission form//////////////////////
 var newStandForm = document.getElementById("newStandForm");
@@ -85,6 +86,15 @@ var newStand = function(event) {
   if(!event.target.location.value || !event.target.min.value || !event.target.max.value || !event.target.avg.value){
     return alert("You must fill in all the fields!");
   }
+///stack overflow rocks////////////////////////////////
+function searchKeyPress(e) {
+  e = e || window.event;
+  if (e.keyCode == 13) {
+    document.getElementById('btnSearch').click();
+    document.getElementById('loc').focus();
+    return false;
+  } return true;
+}
 
   var standName = event.target.location.value;
   var min = event.target.min.value;

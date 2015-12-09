@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
 }*/
-
+img {
+  width: 100%;
+}
 header {
   margin: 0px;
   padding: 0px;
@@ -18,49 +20,44 @@ header h1 {
   margin: 0;
   padding: 0.67em 0;
 }
-
 body {
   margin: 0;
   padding: 0;
   background-color: #b76f4a;
   font-family: 'times new roman', times, sans-serif;
 }
-
 body h3 {
   padding-left: 10px;
   padding-right: 10px;
 }
-
 footer {
   background-color: #abb448;
   /*border: 1px solid red;*/
+}
+input {
+  border-radius: 10px;
+  background-color: #abb448;
+  width: 100px;
+}
+
+/*primary table styling*/
+#tbl {
+  font-size: 1.4em;
+}
+#newStandForm {
+  max-width: 860px;
+}
+#btnSearch {
+  margin-left: 2em;
 }
 .first {
   border: 1px solid black;
   background-color: #abb448;
 }
 .second {
-  /*border: 1px solid black;*/
   background-color: white;
-
 }
-/*.topRow {
-  font-weight: bold;
-}
-.row {
-  background-color: red;
-}*/
-
-/*table,th, td {
-  border: 1px solid black;
-  background-color: #abb448;
-  position: re
-}*/
-img {
-  width: 100%;
-}
-
-ul {
+/*ul {
   padding-left: 10px;
   margin-left: 10px;
   margin-right: 10px;
@@ -84,7 +81,7 @@ h2 {
 h3:first-line {
   font-size: 1.4em;
   text-decoration: underline;
-}
+}*/
 
 p {
   font: helvetica, sans-serif;
