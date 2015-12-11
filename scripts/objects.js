@@ -97,9 +97,9 @@ function searchKeyPress(e) {
 }
 
   var standName = event.target.location.value;
-  var min = event.target.min.value;
-  var max = event.target.max.value;
-  var avg = Number(event.target.avg.value);
+  var min = parseInt(event.target.min.value);
+  var max = parseInt(event.target.max.value);
+  var avg = parseFloat(Number(event.target.avg.value));
 
   var newStand = new CookieStand(standName, min, max, avg);
 
