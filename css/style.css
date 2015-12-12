@@ -1,5 +1,5 @@
 @import URL("../skeleton-2.0.4/css/normalize.css");
-/*@import URL("../skeleton-2.0.4/css/skeleton.css");*/
+@import URL("../skeleton-2.0.4/css/skeleton.css");
 
 header {
   background-image: url(../img/salmon.png);
@@ -8,33 +8,31 @@ header {
   background-color: #30225a;
   font-family: lobster, serif;
   font-weight: normal;
-  font-size: 1.8em;
   color: #bbb0de;
   text-align: center;
-  /*border: 1px solid;*/
+
 }
 header h1 {
-  font-size: 2.0em;
+  font-size: 3.5em;
   margin: 0;
   padding-top: 1em;
+  line-height: 90%;
 }
 body {
-  /*background: url('../img/famPhoto.jpg') no-repeat center center fixed;*/
   margin: 0;
   padding: 0;
   background-color: #b76f4a;
   font-family: 'times new roman', times, sans-serif;
 }
-/*body h3 {
-  padding-left: 10px;
-  padding-right: 10px;
-}*/
 footer {
   background-color: #abb448;
-  /*border: 1px solid red;*/
+  border: 1px solid red;
+}
+h1 {
+  padding-bottom: .2em;
 }
 h2 {
-  line-height: 15%;
+  line-height: 75%;
 }
 p {
   font: helvetica, sans-serif;
@@ -48,15 +46,41 @@ nav a {
   text-decoration: none;
   color: #abb448;
 }
-
-/*@media (min-width: 550px) {
-  .container  {
-    width: 80%;
-}*/
 .bGround {
   width: 100%;
   height: auto;
 }
+.navList{
+  display: inline;
+  padding: 20px;
+  font-size: 1.7em;
+}
+.navList:hover {
+  color: #f90;
+}
+h3 {
+  font-family: abel;
+  text-align: center;
+  font-weight: bolder;
+}
+.merch {
+  text-align: center;
+  /*padding-top: 2em;*/
+  font-weight: 200;
+}
+IMG.cookie {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  list-style-type: none;
+  text-align: center;
+  padding-top: .5em;
+}
+/*.stores {
+  list-style-type: none;
+}*/
 /*#tbl {
   font-size: 1.4em;
 }
@@ -81,7 +105,7 @@ nav a {
 /*.lItem {
   padding-bottom: 1em;
 }*/
-.container {
+/*.container {
   display: flex;
   flex-direction: row;
   flex-grow: 1;
@@ -90,7 +114,7 @@ nav a {
   justify-content: space-between;
   list-style-type: none;
   padding-right: 2.2em;
-}
+}*/
 body:after {
   content:'\00a9 Stephen Schroeder';
   padding-left: 10px;
