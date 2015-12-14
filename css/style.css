@@ -58,7 +58,6 @@ footer a {
   padding-left: 15%;
   color: #3613AD;
   font-size: 1.2em;
-
 }
 IMG.cookie {
   display: block;
@@ -105,135 +104,33 @@ IMG.cookie {
   margin-left: 20%;
   margin-right: 20%;
 }
-/*footer a {
-  display: block;
-  margin-left 60%;
-}*/
-footer {
-  display: block;
-  padding-bottom: 2%;
-  margin: 0 auto;
+.canvas-source {
+  position: absolute;
+  z-index: 200;
+  opacity: 0.2;
+  display: none;
 }
-
-
-/*body:after {
-  content:'\00a9 Stephen Schroeder';
-  padding-left: 10px;
-  background-color: #abb448;
-}*/
-/*.container {
-  list-style-type: none;
-  text-align: center;
-  padding-top: .5em;
-}*/
-/*.stores {
-  list-style-type: none;
-}*/
-/*#tbl {
+.sBurger {
   font-size: 1.4em;
+  font-weight: bolder;
+  margin: 0 30%;
 }
-#newStandForm {
-  max-width: 860px;
-}
-#btnSearch {
-  margin-left: 2em;
-}*/
-/*input {
-  border-radius: 10px;
-  background-color: #abb448;
-  width: 100px;
-}*/
-/*.first {
-  border: 1px solid black;
-  background-color: #abb448;
-}
-.second {
-  background-color: white;
-}*/
-/*.lItem {
-  padding-bottom: 1em;
-}*/
-/*.container {
-  display: flex;
-  flex-direction: row;
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  list-style-type: none;
-  padding-right: 2.2em;
-}*/
-
-/*ul {
-  display: inline-flex;
-  flex-direction: row;
-  flex-grow: 1;
-  flex-wrap: wrap;
-}
-li {
-
-  display: block;
-  float: left;
-  text-align: center;
-  width: 24%;
-  display: inline-flex;
-  flex-direction: row;
-  flex-grow: 1;
-  flex-wrap: wrap;
-  list-style-type: none;
-}*/
-
-/*ul {
-  padding-left: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  list-style-type: none;
-  background-color: #abb448;
-  border-radius: 10px;
+.btn {
+  position: fixed;
+  /*position: absolute;*/
+  z-index: 10;
+  right: 20px;
+  bottom: 20px;
+  padding: 10px;
+  background: #247886;
+  color: #fff;
+  border: none;
 }
 
-li {
-  font: helvetica, sans-serif;
-  padding-left: 10px;
-  margin-left: 10px;
-  font-size: 1.5em;
-  list-style-type: none;
-}*/
-/*
-h2 {
-    font-size: 2.2em;
+.dg {
+  z-index: 999;
 }
-
-h3:first-line {
-  font-size: 1.4em;
-  text-decoration: underline;
-}*/
-
-
-/*primary table styling*/
-/*.pH1 {
-  max-width: 20%;
-  float: left;
-  display: flex;
-  flex-grow: 0 1 auto;
-}
-.pH2 {
-  max-width: 20%;
-  float: right;
-  display: flex;
-  flex-grow: 0 1 auto;
-}
-.pH11 {
-  max-width: 20%;
-  float: right;
-  display: flex;
-  position: absolute; right: 0;
-  flex-grow: 0 1 auto;
-}
-.pH22 {
-  max-width: 20%;
-  float: right;
-  display: flex;
-  position: absolute; right: 0;
-  flex-grow: 0 1 auto;
+.dg input,
+.dg select {
+  color: #000;
 }
